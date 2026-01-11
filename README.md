@@ -15,7 +15,7 @@ Bu proje, Nesneye Yönelik Programlama (OOP) prensipleri ve Hibernate ORM kullan
 
 ## Proje Yapısı
 * `src/entity`: Veritabanı tablolarına karşılık gelen sınıflar (Book, Student, Loan).
-* `src/dao`: Veritabanı işlemlerini yapan katman (CRUD operasyonları).
+* `src/dao`: Veritabanı işlemlerini yapan katman.
 * `src/app`: Uygulamanın çalıştığı ana konsol arayüzü.
 * `src/util`: Hibernate ayar ve bağlantı sınıfı.
 
@@ -36,3 +36,4 @@ Gerçek bir kütüphane senaryosunda bir kitap tarihçesi boyunca defalarca öd�
 Bu sayede:
 1. Kitap iade edildiğinde geçmiş kayıt silinmez (Tarihçe korunur).
 2. Aynı kitap tekrar tekrar ödünç verilebilir.
+
